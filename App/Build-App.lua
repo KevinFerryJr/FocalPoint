@@ -9,15 +9,14 @@ project "App"
 
    includedirs
    {
-      "Source",
-
-	  -- Include Core
-	  "../Core/Source"
-   }
+        "Source",
+	    "../Core/Source",
+        "../Core/Vendor/spdlog-main/include"
+    }
 
    links
    {
-      "Core"
+        "Core"
    }
 
    defines
