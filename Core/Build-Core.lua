@@ -5,11 +5,12 @@ project "Core"
    targetdir "Binaries/%{cfg.buildcfg}"
    staticruntime "off"
 
-   files { "Source/**.h", "Source/**.cpp" }
+   files { "Source/**.h", "Source/**.cpp"}
 
    includedirs
    {
-      "Source"
+      "Source",
+      "Vendor/spdlog-main/include"
    }
 
    defines

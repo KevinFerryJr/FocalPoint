@@ -1,17 +1,17 @@
 #include "FocalPoint.h"
 
-class SpringBox : public FocalPoint::Application {
+class FocalPointApp : public FocalPoint::Application {
 public:
-	SpringBox() {
+	FocalPointApp() {
 
 	}
 
-	~SpringBox() {
+	~FocalPointApp() {
 
 	}
 };
 
 FocalPoint::Application* FocalPoint::CreateApplication()
 {
-	return new SpringBox();
+	return new FocalPointApp();
 }
