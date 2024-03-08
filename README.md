@@ -1,1 +1,1 @@
-![Banner](Assets/logo/rend/final/Github/Banner.png)
+![Banner](Assets/logo/rend/final/GitHub/Banner.png)
