@@ -14,3 +14,5 @@ OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 include "Core/Build-Core.lua"
 
 include "App/Build-App.lua"
+
+include "Vendor/glfw-master/premake5.lua"

@@ -41,3 +41,7 @@ project "Core"
        runtime "Release"
        optimize "On"
        symbols "Off"
+
+    include "Vendor/spdlog-main/Build-spdlog.lua"
+
+    include "Vendor/GLFW-master/Build-GLFW.lua"
