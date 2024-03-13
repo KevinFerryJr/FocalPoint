@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace FocalPoint {
 	
 	class MouseMovedEvent : public Event

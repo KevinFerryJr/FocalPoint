@@ -2,9 +2,6 @@
 
 #include "Core/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace FocalPoint {
 
 	enum class EventType
