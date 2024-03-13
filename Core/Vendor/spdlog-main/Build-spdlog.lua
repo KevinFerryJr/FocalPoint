@@ -1,4 +1,4 @@
-project "spd-log"
+project "spdlog"
 	kind "StaticLib"
 	language "C"
 	staticruntime "off"

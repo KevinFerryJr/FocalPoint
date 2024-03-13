@@ -16,6 +16,13 @@ project "Core"
       "Vendor/spdlog-main/include"
    }
 
+   links
+   {
+        "opengl32.lib",
+        "GLFW",
+        "spdlog"
+   }
+
    defines
    {
        "FP_PLATFORM_WINDOWS"
