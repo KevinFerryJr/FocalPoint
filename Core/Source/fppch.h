@@ -12,6 +12,9 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "Core/Core.h"
+#include "Core/Log.h"
+
 
 #ifdef FP_PLATFORM_WINDOWS
 	#include <Windows.h>

@@ -13,7 +13,8 @@ project "Core"
    includedirs
    {
       "Source",
-      "Vendor/spdlog-main/include"
+      "Vendor/spdlog-main/include",
+      "Vendor/glfw-master/include"
    }
 
    links
